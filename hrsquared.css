@@ -1,0 +1,103 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive, Arial, Helvetica, sans-serif;
+    background-color: #26547C;
+    color: #95AFBA;
+}
+
+h1 {
+    text-align: center;
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+.navlist {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navlist li{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    color: blanchedalmond;
+    font-size: 1.5rem;
+    border-bottom: 2 px solid #95AFBA53;
+}
+
+a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.textboxes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.textboxes p{
+    display: inline-block;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    border: 2px solid #95AFBA;
+    border-radius: 10px;
+    margin: 3rem 1rem;
+}
+
+.textBoxTitle {
+    color: blanchedalmond;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.footer li {
+    display: inline-block;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: 0 1rem;
+    padding: 0.5rem;
+    color: #95AFBA;
+    border: 2px solid #95AFBA;
+    border-radius: 10px;
+}
+
+hr {
+    border-color: #95AFBA;
+}
+
+form{
+    align-items: center;
+}
+
+
+.button{
+    float: right;
+    margin: .5rem .5rem;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
